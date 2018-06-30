@@ -34,7 +34,7 @@ class App < Sinatra::Base
     if @operation == "add"
       @opp = +
     elsif @operation == "subtract"
-      @opp  = -
+      @opp = -
     elsif @operation == "multiply"
       @opp = *
     elsif @operation == "divide"
